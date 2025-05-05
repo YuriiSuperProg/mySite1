@@ -1,0 +1,106 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #FEB447;
+    color: white;
+     
+}
+ 
+.main{
+    color: white;
+    text-decoration: none;
+
+}
+.main:hover{
+    transform: scale(0.9);
+    transition: 0.5s ease;
+    cursor: pointer;
+    
+}
+
+.header-li, li{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    gap: 50px;
+    font-size: 20px;
+     
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+     
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: max-content;
+    height: 100vh;
+    list-style: none;
+    background-color:  #FEB447;
+    color: white;
+}
+
+.li-list:hover{
+    transform: scale(0.9);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.li-list a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 50px;
+    color: white;
+}
+
+.p1{
+    font-size: 25px;
+    background-color: #ffdfaf;
+}
+
+.h1{
+    text-align:  center;
+    background-color: #FEB447;
+    width: 110vw;
+}
+
+.button-inf{
+    width: 20vw;
+    background-color: #FEB447;
+    color: black;
+    border: none;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.button-inf:hover{
+    transform: scale(0.7);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}

@@ -1,0 +1,314 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ 
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+     
+}
+ 
+
+.header-li, li{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    gap: 50px;
+    font-size: 16px;
+     
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
+.fon-section1{
+    background: url(0021.png);
+    height: max-content;
+    background-repeat: no-repeat;
+    padding: 50px;
+    padding-left: 110px;
+}
+
+.section1-inf, .div-inf1, .div-inf2, .div-inf3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.img-inf{
+    width: 32px;
+    height: 32px;
+}
+
+
+h1, h3{
+    color: white;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h3{
+    font-size: 23px;
+}
+
+p{
+    font-size: 16px;
+}
+
+.button-inf{
+    width: 184px;
+    height: 43px;
+    background-color: #FEB447;
+    color: black;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.button-inf:hover{
+    transform: scale(0.7);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.button-inf2:hover{
+    transform: scale(0.7);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.fon-section2{
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+
+.list1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.h4{
+    display: block;
+    text-align: center;
+    font-size: 34px;
+    margin: 50px;
+    margin-left: 65px;
+     
+}
+
+.table{
+    margin-right: 70px;
+}
+    
+td{
+    padding: 40px;
+    font-size: 20px;
+}
+ 
+ 
+.list-rabota{
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.img3{
+    width: 40px;
+    height: 40px;
+}
+
+.price{
+    color: red;
+    font-size: 16px;
+}
+
+.list-vak{
+    box-shadow: 0px 1px 4px 1px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.button-inf2{
+    width: 257px;
+    height: 43px;
+    margin: 50px;
+    margin-left: 110px;
+    background-color: #FEB447;
+    color: black;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+
+.div-section3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-pk{
+    width:412px;
+    height: 332px;
+}
+
+.img-pk1{
+    width:433px;
+    height: 297px;
+}
+
+.kart-1 p{
+    margin-top: 35px;
+    font-size: 20px; 
+}
+
+.h4-section4{
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.p-section4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.section-4{ 
+    margin: 50px;
+    margin-left: 110px; 
+}
+
+.inf-section5{
+    background: url(0022.png);
+    background-repeat: no-repeat; 
+    padding: 70px;
+    padding-left: 100px;
+}
+
+.h4-section5{ 
+    font-size: 34px;
+    font-weight: 700;
+    color: #FFFFFF;
+    
+}
+
+ 
+
+.img-flat{
+    width:  900px;
+    text-align: center;   
+}
+
+.table2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+h5{
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.p-section5{
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+
+} 
+ 
+.tr td{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-table{
+    margin: 110px;
+}
+ 
+.section-7{
+    background: url(0023.png);
+    height: max-content;
+    background-repeat: no-repeat;
+    padding: 50px;
+    padding-left: 110px;
+    height: 60vh;
+}
+
+.h2-7{
+    color: white;
+    font-size: 60px;
+}
+
+.h3-7{
+    color: white;
+    font-size: 34px;
+}
+
+.p-7{
+    color: white;
+    font-size: 24px;
+}
+
+.h21-7{
+    color: white;
+    font-size: 34px;
+}
+
+.dev-7{
+    position: absolute;
+    display: flex;
+    gap: 40px;
+    
+}
+
+.dev-1{
+    width: 450px;
+    height: 280px;
+    border-radius: 20px;
+}
+
+
+li{
+    font-size: 20px;
+    list-style: disc;
+}
+
+.abs-h2{
+    position: absolute;
+    top: 220px;
+    left: 100px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.abs-h21{
+    position: absolute;
+    top: 220px;
+    left: 60vh;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.footer{ 
+    background-color: #dc8502;
+    color: white;
+    padding: 50px;
+    padding-left: 110px;
+    margin-top: 500px;
+}
